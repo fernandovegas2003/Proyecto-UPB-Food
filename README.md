@@ -18,3 +18,4 @@ test: Contiene las pruebas unitarias del proyecto.
 
 ProgramaTest: Contiene pruebas unitarias para las funcionalidades del programa.
 
+![Captura](https://github.com/fernandovegas2003/Parcial-2Analisis/assets/129967131/100934c3-8c3f-4b8b-84da-ad4ad1fd4508)
