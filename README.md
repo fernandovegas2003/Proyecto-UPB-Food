@@ -1,21 +1,43 @@
-# Librería MVC
-Este proyecto es una implementación de una librería utilizando el patrón de diseño Modelo-Vista-Controlador (MVC) en Java. Proporciona funcionalidades básicas para buscar, reservar y administrar libros en una librería.
+# Proyecto Food UPB
 
-Estructura del proyecto
-El proyecto sigue la siguiente estructura de paquetes:
+Este proyecto es una aplicación de gestión de pedidos y entregas para el restaurante Food UPB, que permite a los operadores recibir pedidos por teléfono, registrar clientes, gestionar pedidos y a los repartidores recibir y entregar pedidos.
 
-com.todo.MVC.parcial: Contiene las clases principales del proyecto.
+## Requisitos del Sistema
 
-Libro: Representa un libro con sus atributos (título, autor, disponibilidad).
+- Sistema operativo: Ubuntu 22.04 LTS o Debian 11 o superior.
+- Hardware mínimo: 2GB de RAM y procesador 1.4 GHz.
+- Lenguaje de programación: Java.
 
-Modelo: Implementa la lógica del modelo y proporciona métodos para buscar libros por título y reservar libros.
+## Funcionalidades Principales
 
-Vista: Se encarga de la presentación de la información al usuario.
+- **Operador**: Permite a los operadores recibir llamadas, registrar clientes y gestionar pedidos telefónicos.
+- **Administrador**: Permite a los administradores gestionar operadores y la base de datos.
+- **Entrega**: Permite a los repartidores recibir pedidos y realizar entregas.
+- **Base de Datos**: Almacena la información de clientes y pedidos de manera centralizada.
 
-Controlador: Gestiona las interacciones entre el modelo y la vista.
+## Instalación y Uso
 
-test: Contiene las pruebas unitarias del proyecto.
+1. Clona el repositorio: `git clone https://github.com/tuusuario/food-upb.git`
+2. Abre el proyecto en tu entorno de desarrollo Java preferido.
+3. Compila y ejecuta la aplicación.
 
-ProgramaTest: Contiene pruebas unitarias para las funcionalidades del programa.
+## Contribución
 
-![Captura](https://github.com/fernandovegas2003/Parcial-2Analisis/assets/129967131/100934c3-8c3f-4b8b-84da-ad4ad1fd4508)
+Si deseas contribuir al proyecto, sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama para tus cambios: `git checkout -b feature/nueva-funcionalidad`.
+3. Realiza tus cambios y haz commit: `git commit -m "Añade nueva funcionalidad"`.
+4. Sube los cambios a tu repositorio: `git push origin feature/nueva-funcionalidad`.
+5. Abre un Pull Request en este repositorio.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
+
+## Contacto
+
+Si tienes alguna pregunta o sugerencia, puedes contactar al equipo de desarrollo en [correo@foodupb.com](mailto:correo@foodupb.com).
+
+¡Esperamos que disfrutes de Food UPB!
+
