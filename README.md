@@ -1,21 +1,34 @@
-# Librería MVC
-Este proyecto es una implementación de una librería utilizando el patrón de diseño Modelo-Vista-Controlador (MVC) en Java. Proporciona funcionalidades básicas para buscar, reservar y administrar libros en una librería.
 
-Estructura del proyecto
-El proyecto sigue la siguiente estructura de paquetes:
+Descripción del Proyecto
+Food UPB es un proyecto desarrollado para el restaurante del mismo nombre, que busca sistematizar y mejorar el proceso de atención telefónica para pedidos de comida a domicilio en el área metropolitana de Bucaramanga. La microempresa, de capital familiar, ha identificado la necesidad de optimizar la toma de pedidos, gestión de clientes, y la eficiencia en la cocina y entregas a domicilio.
 
-com.todo.MVC.parcial: Contiene las clases principales del proyecto.
+Funcionalidades Principales
+El sistema cuenta con los siguientes módulos:
 
-Libro: Representa un libro con sus atributos (título, autor, disponibilidad).
+Módulo del Operador: Aplicación para el usuario "Operador" encargado de recibir los pedidos por teléfono e ingresarlos al sistema.
 
-Modelo: Implementa la lógica del modelo y proporciona métodos para buscar libros por título y reservar libros.
+Módulo del Administrador: Aplicación para el usuario "Administrador" que permite gestionar operadores, la base de datos, y configuraciones de la aplicación.
 
-Vista: Se encarga de la presentación de la información al usuario.
+Módulo de Cocina: Despliega el tablero de control para la cola de pedidos en la cocina, priorizando los pedidos según la ubicación y tipo de comida.
 
-Controlador: Gestiona las interacciones entre el modelo y la vista.
+Módulo de Entrega: Despliega los pedidos priorizados por ubicación para los agentes de entrega, permitiendo la impresión del pedido y la visualización de la ruta.
 
-test: Contiene las pruebas unitarias del proyecto.
+Requisitos del Producto
+Gestión de Usuarios: El sistema debe incluir un módulo de gestión de usuarios con autenticación mediante contraseña. Tipos de usuarios: Administrador, Operador, Entrega.
 
-ProgramaTest: Contiene pruebas unitarias para las funcionalidades del programa.
+Compatibilidad: La aplicación debe funcionar en el sistema operativo Ubuntu 22.04 LTS o Debian 11 o superior.
 
-![Captura](https://github.com/fernandovegas2003/Parcial-2Analisis/assets/129967131/100934c3-8c3f-4b8b-84da-ad4ad1fd4508)
+Requisitos de Hardware: Mínimo 2GB de RAM y procesador 1.4 GHz.
+
+Diseño Responsivo: Las vistas deben adaptarse a diferentes tipos de pantallas.
+
+Base de Datos Centralizada: Se recomienda utilizar archivos XML o JSON o un gestor de base de datos.
+
+Requisitos del Proyecto
+Lenguaje de Programación: JAVA.
+
+Desarrollo Colaborativo: La metodología de desarrollo es libre, pero debe ser sustentada con evidencia. Se recomienda utilizar herramientas como GitHub o Trello para la bitácora de avance.
+
+Cronograma: El desarrollo del proyecto debe cumplir con un cronograma de 14 semanas.
+
+Documentación: Se debe presentar un informe de seguimiento semanal y una sustentación final derivada de un artículo científico que contenga todos los resultados del proyecto.
